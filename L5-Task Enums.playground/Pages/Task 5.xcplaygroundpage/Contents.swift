@@ -83,9 +83,9 @@ corners.enumerated().forEach { index, item in
 
 //:*  წაშალე ყველა ელემენტი, რომელიც არ არის bottomRight.
 
-//corners.removeAll { item -> Bool in
-//    item != .bottomRight
-//}
+corners.removeAll { item -> Bool in
+    item != .bottomRight
+}
 
 //:*  დაბეჭდე ელემენტები მანამ სანამ არ შეგვხვდება bottom.
 
